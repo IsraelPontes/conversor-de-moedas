@@ -27,13 +27,13 @@ async function convertertValues() {
         BTC: parseFloat(dataApi.BTCBRL.bid)
     }
 
-    console.log(valueBRL)
-    console.log(currencyValueToConvert)
-    console.log(currencyValueConverted)
-    console.log(frontCurrency)
-    console.log(dataApi)
-    console.log(rates)
-    console.log(division(rates.BRL, rates.EUR))
+    // console.log(valueBRL)
+    // console.log(currencyValueToConvert)
+    // console.log(currencyValueConverted)
+    // console.log(frontCurrency)
+    // console.log(dataApi)
+    // console.log(rates)
+    // console.log(division(rates.BRL, rates.EUR))
    
 
     // if (currencySelectOne.value == "dolar") {
