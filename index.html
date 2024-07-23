@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas Israel</title>
+    <link rel="stylesheet" href="./stiles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <img class="logo" src="./assets/logo/1692026631096.gif" alt="logo-mão-sobre-outra-mão-com-dinehriro-ao-centro">
+        <section class="m1">
+
+            <label>
+                Converter <b>de</b>
+                <select name="" id="" class="currency-select-one">
+                    <option value="">Selecione a moeda para converssão</option>
+                    <option value="real">R$ Real</option>
+                    <option value="dolar">US$ Dólar Americano</option>
+                    <option value="euro">€ Euro</option>
+                    <option value="btc">₿ Biticoin</option>
+                </select>
+            </label>
+
+            <label>
+                Converter <b>para</b>
+                <select name="" id="" class="currency-select-two">
+                    <option value="">Selecione a moeda para converssão</option>
+                    <option value="real">R$ Real</option>
+                    <option value="dolar">US$ Dólar Americano</option>
+                    <option value="euro">€ Euro</option>
+                    <option value="btc">₿ Biticoin</option>
+                </select>
+            </label>
+
+            <label>
+                Valor
+                <input class="input-currency" placeholder="0,00" >
+            </label>
+
+            <button class="convert-button">Converter</button>
+
+            <section class="m2">
+                <div class="currency-box">
+                    <img class="currency-img-one" src="./assets/logo-moedas-paises/lm-estados-unidos.png"
+                        alt="Logo-da-bandeira-do-Estados-Unidos-da-America">
+                    <div class="currency-box">
+                        <p class="currency" id="currency-name-one">Dolar Americno</p>
+                        <p class="currency-value-convert-one">0,00</p>
+                    </div>
+                </div>
+
+                <img calss="seta" src="./assets/acessorios/vector.png" alt="Seta-para-baixo">
+
+                <div class="currency-box">
+                    <img class="currency-img-two" src="./assets/logo-moedas-paises/lm-brasil.png" alt="Logo-da-bandeira-do-Brasil">
+                    <div class="currency-box">
+                        <p class="currency" id="currency-name-two">Real</p>
+                        <p class="currency-value-convert-two">0,00</p>
+                    </div>
+                </div>
+
+            </section>
+        </section>
+    </main>
+</body>
+<script src="./src/index.js" type="module"></script>
+</html>
