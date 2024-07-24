@@ -11,12 +11,12 @@ export function changeCurrencyOne() {
     const currencyValueToConvert = document.querySelector(".currency-value-convert-one")
     const idOne = currencySelectOne.value
 
-    if (idOne === "btc") {
+    if (idOne === "BTC") {
         criptos.forEach(cripto => {
             if (cripto.id === idOne) {
                 currencyName.innerHTML = cripto.name
                 currencyImage.src = srcImage + cripto.soon
-                currencyValueToConvert.innerHTML = "₿ " + new Intl.NumberFormat(cripto.format, {
+                currencyValueToConvert.innerHTML = cripto.symbol + new Intl.NumberFormat(cripto.format, {
                     style: 'decimal',
                     currency: 'BTC',
                     minimumFractionDigits: 8,
@@ -49,7 +49,7 @@ export function changeCurrencyTwo() {
             if (cripto.id === idTwo) {
                 currencyName.innerHTML = cripto.name
                 currencyImage.src = srcImage + cripto.soon
-                currencyValueToConvert.innerHTML = "₿ " + new Intl.NumberFormat(cripto.format, {
+                currencyValueToConvert.innerHTML = cripto.symbol + new Intl.NumberFormat(cripto.format, {
                     style: 'decimal',
                     currency: 'BTC',
                     minimumFractionDigits: 8,

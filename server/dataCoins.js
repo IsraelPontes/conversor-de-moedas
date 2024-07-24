@@ -5,7 +5,8 @@ export const coins = [
         soon: 'lm-brasil.png',
         format: 'pt-BR',
         currency: 'BRL',
-        type: "coin"
+        type: "coin",
+        codein: "BRL"
     },
     {
         id: 'dolar',
@@ -13,7 +14,8 @@ export const coins = [
         soon: 'lm-estados-unidos.png',
         format: 'en-US',
         currency: 'USD',
-        type: "coin"
+        type: "coin",
+        codein: "USD"
     },
     {
         id: 'euro',
@@ -21,7 +23,8 @@ export const coins = [
         soon: 'lm-euro.png',
         format: 'de-DE',
         currency: 'EUR',
-        type: "coin"
+        type: "coin",
+        codein: "EUR"
     },
 ];
 
@@ -32,6 +35,8 @@ export const criptos = [
         soon: 'lc-bitcoin.png',
         format: 'pt-BR',
         currency: '',
-        type: "cripto"
+        type: "cripto",
+        symbol: "₿ ",
+        codein: "BTC"
     }
 ]
