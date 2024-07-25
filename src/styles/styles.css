@@ -6,19 +6,23 @@
     outline: none;
 }
 body{
+    display: flex;
     background-color: #8A51FC;
+    justify-content: center;
 }
 .logo{
-    width: 300px;
+    width: 200px;
     display: block;
     margin:20px auto;
+    
 }
+
 .m1{
     width: 375px;
     background: #F4F4F4;
     border-radius: 20px;
     margin: 0 auto;
-    padding: 44px 24px 23px 20px;
+    padding: 20px 20px 20px 20px;
 }
 label{
     color: #777777;
@@ -31,7 +35,7 @@ select , input{
     border-radius: 4px;
     height: 48px;
     width: 100%;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
     appearance: none;
     padding-left: 18px;
     font-size: 16px;
@@ -58,21 +62,24 @@ button:active{
 .m2{
     border: 1px solid #772FD3;
     border-radius: 20px;
-    margin-top: 36px;
+    margin-top: 10px;
     padding: 12px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: flex-start;
     gap: 10px;
 }
-.seta{
-    margin: 15px 0;
-
+div.seta-indicativa{
+    margin-left: 48%; 
 }
-.currency-box{
+img{
+    width: 50px;
+}
+.currency-box-one{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    margin-left: 30%;
     gap: 4px;
 }
 .currency{

@@ -1,7 +1,7 @@
-import { changeCurrencyOne, changeCurrencyTwo } from '../functions/changes.js'
-import { coins, criptos } from '../server/dataCoins.js'
-import { division, multiplication } from '../functions/calculation.js'
-import { data } from '../server/server.js'
+import { changeCurrencyOne, changeCurrencyTwo } from './functions/changes.js'
+import { coins, criptos } from './server/dataCoins.js'
+import { division, multiplication } from './functions/calculation.js'
+import { data } from './server/server.js'
 
 const convertButton = document.querySelector(".convert-button")
 const currencySelectOne = document.querySelector(".currency-select-one")

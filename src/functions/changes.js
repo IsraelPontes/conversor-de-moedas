@@ -2,7 +2,7 @@ import { coins, criptos } from '../server/dataCoins.js'
 
 const currencySelectOne = document.querySelector(".currency-select-one")
 const currencySelectTwo = document.querySelector(".currency-select-two")
-const srcImage = "./assets/logo-moedas-paises/"
+const srcImage = "./src/assets/logo-currencies-countries/"
 const values = 0.00
 
 export function changeCurrencyOne() {
